@@ -210,7 +210,6 @@ export const getTokenBalancesWithPrices = async (operations, symbol) => {
 				return new Promise(async (resolve, reject) => {
 					balances[op.symbol] = (balances[op.symbol] || 0) + (op.type === 'OUT' ? -op.value : op.value);
 					const price = tokenPrices[op.symbol].unit_price;
-					console.log(price);
 					mergedData[op.symbol] = {
 						symbol: op.symbol,
 						balance: formatValue(balances[op.symbol], op.magnitude),
