@@ -28,7 +28,6 @@ export default class HomeHistory extends PureComponent {
 					let value = store[i][1];
 					history.push(value);
 				});
-				console.log(history);
 				this.setState({ history });
 			});
 		});

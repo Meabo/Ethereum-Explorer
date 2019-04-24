@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "eth-explorer",
-    "slug": "eth-explorer",
+    "name": "eth-explorer-final",
+    "slug": "eth-explorer-final",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -25,6 +25,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": ""
+    "description": "",
+    "githubUrl": "https://github.com/Meabo/Ethereum-Explorer"
   }
 }
